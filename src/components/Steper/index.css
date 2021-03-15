@@ -1,0 +1,31 @@
+.metrics {
+  width: 100%;
+  position: relative;
+  font-size: 14px;
+  color: black;
+}
+
+.percent0 {
+  position: absolute;
+  left: 0;
+}
+
+.percent25 {
+  position: absolute;
+  left: calc(25% - 8px);
+}
+
+.percent50 {
+  position: absolute;
+  left: calc(50% - 10px);
+}
+
+.percent75 {
+  position: absolute;
+  left: calc(75% - 12px);
+}
+
+.percent100 {
+  position: absolute;
+  right: 0;
+}

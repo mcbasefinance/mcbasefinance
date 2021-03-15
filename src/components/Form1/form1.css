@@ -1,0 +1,114 @@
+.form1 {
+    padding: 20px;
+    background-color: #FDB40D !important;
+    color: black;
+    border-radius: 10px;
+    border: 2px solid #F3BA2F;    
+    margin-bottom: 20px;
+    line-height: 1.5em;
+}
+
+h3 {
+    color: black;
+    font-weight: bold !important;
+}
+
+h4 {
+    color: black;
+    font-weight: bold !important;
+}
+
+.numberSpan {
+    color: black;
+}
+
+.leftSideImage1 {
+    position:absolute;
+    left: -80px;
+    bottom: -40px;
+    width: 220px;
+}
+
+.leftSideImage2 {
+    position:absolute;
+    left: -40px;
+    bottom: 40px;
+    height: 250px;
+}
+
+.leftSideImage3 {
+    position:absolute;
+    left: -100px;
+    bottom: 40px;
+    height: 220px;
+}
+
+.leftSideImage4 {
+    position:absolute;
+    left: -80px;
+    bottom: 40px;
+    height: 220px;
+}
+
+.leftSideImage5 {
+    position:absolute;
+    left: -100px;
+    bottom: 20px;
+    height: 220px;
+}
+
+.rightSideImage1 {
+    position:absolute;
+    right: -80px;
+    top: -40px;
+    width: 200px;
+}
+
+.rightSideImage2 {
+    position:absolute;
+    right: -40px;
+    top: -60px;
+    width: 160px;
+}
+
+.rightSideImage3 {
+    position:absolute;
+    right: -40px;
+    top: -20px;
+    width: 120px;
+}
+
+.rightSideImage4 {
+    position:absolute;
+    right: -40px;
+    top: 50px;
+    width: 120px;
+}
+
+@media screen and (max-width: 1280px) {
+    .form1 {
+        padding: 20px;
+        background: #FDB40D !important;
+        color: black;
+        border-radius: 10px;
+        border: 2px solid #F3BA2F;    
+        margin-bottom: 20px;
+    }
+
+    
+    .leftSideImage1 {
+        display: none;
+    }
+
+    .leftSideImage2 {
+        display: none;
+    }
+
+    .rightSideImage1 {
+        display: none;
+    }
+
+    .rightSideImage2 {
+        display: none;
+    }
+}

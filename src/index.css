@@ -1,0 +1,30 @@
+@font-face {
+  font-family: "JosefinSans-Light";
+  src: local("JosefinSans-Light"),
+    url(./assets/fonts/JosefinSans-Light.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: local("Roboto"), url(./assets/fonts/Roboto.ttf) format("truetype");
+}
+
+body {
+  margin: 0;
+  font-family: Roboto !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #1d0d00 !important;
+  font-size: 18px !important;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+@media screen and (max-width: 480px) {
+  body {
+    font-size: 16px !important;
+  }
+}

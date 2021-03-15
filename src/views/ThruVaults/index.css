@@ -1,0 +1,151 @@
+.accordion > .card {
+  margin-bottom: 20px;
+  border-radius: 8px;
+  background-color: #fdb40d;
+}
+
+.accordion > .card:not(:first-of-type) {
+  border-top-left-radius: 8px !important;
+  border-top-right-radius: 8px !important;
+}
+
+.accordion > .card:not(:last-of-type) {
+  border-bottom: 0;
+  border-bottom-right-radius: 8px !important;
+  border-bottom-left-radius: 8px !important;
+}
+
+.icon {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.toggle {
+  background: none !important;
+  border: none !important;
+  margin-right: 25px;
+}
+
+.toggle:focus {
+  outline: none;
+}
+
+.toggle img {
+  cursor: pointer;
+}
+
+.card-header .title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.card-header .value {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.card-header .uses {
+  font-size: 14px;
+}
+
+.card-header .title-panel {
+  min-width: 207px;
+}
+
+.card-body .balance {
+  width: 40%;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.input-balance {
+  margin-top: 10px;
+  width: 100%;
+  border: none;
+  border-radius: 6px;
+  height: 40px;
+}
+
+.div-steper {
+  width: 100%;
+}
+
+/* .btn-row {
+  margin-top: 30px;
+} */
+
+.card-body .empty {
+  width: 20%;
+}
+
+/* .btn {
+  height: 47px;
+} */
+
+.btn-red {
+  background-color: #ec1a23;
+  padding: 8px;
+  padding-left: 20px;
+  padding-right: 25px;
+  border-radius: 25px;
+  border: none;
+  color: white;
+}
+
+.btn-red:focus {
+  outline: none;
+}
+
+.btn-red:hover {
+  opacity: 0.8;
+}
+
+.btn-red-outline {
+  background-color: transparent;
+  padding: 8px;
+  padding-left: 20px;
+  padding-right: 25px;
+  border-radius: 25px;
+  border: 1px solid #ec1a23;
+  color: #ec1a23;
+}
+
+.btn-red-outline:focus {
+  outline: none;
+}
+
+
+.btn-red-outline:hover {
+  opacity: 0.8;
+}
+
+.btn-black {
+  background-color: #1d0d00;
+  padding: 8px;
+  padding-left: 20px;
+  padding-right: 25px;
+  border-radius: 25px;
+  border: none;
+  color: white;
+}
+
+.btn-black:focus {
+  outline: none;
+}
+
+
+.btn-black:hover {
+  opacity: 0.8;
+}
+
+.fe-balance-desc {
+  font-size: 14px;
+  padding-bottom: 10px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.fe-desc {
+  margin-top: 20px;
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.5);
+}

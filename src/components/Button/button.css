@@ -1,0 +1,61 @@
+.wbutton {
+  background-color: #1D0D00;
+  text-align: center;
+  border-radius: 58px;
+  color: white;
+  padding: 6px;
+  cursor: pointer;
+  /* font-weight: bold; */
+  box-shadow: 0px 0px 19px rgba(29, 27, 23, 0.42);
+}
+
+.gbutton {
+  background-color: #8C8C8C;
+  border-radius: 58px;
+  text-align: center;
+  color: white;
+  padding: 6px;
+  cursor: pointer;
+  box-shadow: 0px 0px 19px rgba(29, 27, 23, 0.42);
+}
+
+.obutton {
+  background-color: #f47516;
+  text-align: center;
+  border-radius: 58px;
+  color: white;
+  padding: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  box-shadow: 0px 0px 19px rgba(29, 27, 23, 0.42);
+}
+
+.rbutton {
+  background-color: #EC1A23;
+  text-align: center;
+  border-radius: 58px;
+  color: white;
+  padding: 6px;
+  cursor: pointer;
+  /* font-weight: bold; */
+  box-shadow: 0px 0px 19px rgba(29, 27, 23, 0.42);
+}
+
+.labelButton {
+  color: black;
+  cursor: pointer;
+  display: inline;
+}
+
+.linkButton {
+  background-color: #EC1A23;
+  text-align: center;
+  border-radius: 58px;
+  color: white !important;
+  padding: 8px 25px;
+  cursor: pointer;
+  width: 204px;
+  /* font-weight: bold; */
+  box-shadow: 0px 0px 19px rgba(29, 27, 23, 0.42);
+  text-decoration: none !important;
+}
